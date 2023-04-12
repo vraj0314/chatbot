@@ -1,0 +1,248 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "CollegeInfo",
+      "patterns": [
+        "Tell me about the college",
+        "What are the courses offered?",
+        "What are the admission requirements?",
+        "What is the tuition fee?",
+        "What are the facilities provided?",
+        "Is there a hostel facility?",
+        "What is the college's address?",
+        "What is the contact number of the college?"
+      ],
+      "responses": [
+        "Our college offers a variety of undergraduate and graduate courses in different fields. http://adit.ac.in/about.jsp",
+        "The admission requirements may vary depending on the course you choose. You can find more information about it on our website. adit.ac.in/",
+        "The tuition fee also varies depending on the course you choose. You can find more information about it on our website.adit.ac.in/",
+        "We provide facilities like a library, computer lab, sports complex, and more.adit.ac.in/",
+        "Yes, we do provide hostel facilities for students.",
+        "Our college is located at New Vallabh Vidhyanagar, Post Box:-52, Vitthal Udyognagar-388121, Dist:-Anand(Gujarat) India .",
+        "You can contact us at TEL: +91-2692-233680, Whatsapp number : 9427603032. INSTITUTE EMAIL : info@adit.ac.in, PRINCIPAL EMAIL : principal@adit.ac.in"
+      ]
+    },
+    {
+      "tag": "ITInfo",
+      "patterns": [
+        "Tell me about the Information Technology",
+        "What is the syllabus for  Information Technology?",
+        "What is the duration of  Information Technology?",
+        "What are the career opportunities after completing  Information Technology?"
+      ],
+      "responses": [
+        "The Information Technology program covers a range of topics related to Software development. More can be found at http://adit.ac.in/itdept.jsp",
+        "The syllabus for Information Technology can be found at http://adit.ac.in/itdept.jsp",
+        "The duration of the Information Technologyprogram is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at http://adit.ac.in/itdept.jsp",
+        "After completing  Information Technology,  can pursue a career in fyouields such as Information Technology, software and web development and moreAcquire knowledge of core courses like programming, algorithms, database technologies, software engineering and networking and apply them to solve real world problems. More can be found at http://adit.ac.in/itdept.jsp"
+      ]
+    },
+    {
+      "tag": "FTPInfo",
+      "patterns": [
+        "Tell me about the Food Processing Technology",
+        "What is the syllabus for Food Processing Technology?",
+        "What is the duration of Food Processing Technology?",
+        "What are the career opportunities after completing Food Processing Technology?"
+      ],
+      "responses": [
+        "The Food Processing Technology program endeavours to develop globally competent graduate engineers capable of fulfilling the rapidly growing demands of food processing sector. .",
+        "The syllabus for Food Processing Technology can be found at http://adit.ac.in/fptdept.jsp.",
+        "The duration of the Food Processing Technology program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at http://adit.ac.in/fptdept.jsp",
+        "After completing  Food Processing Technology, implementation of food safety practices, quality control measures, quality assurance procedures and statutory and legal requirements in food processing industry.More can be found at http://adit.ac.in/fptdept.jsp"
+      ]
+    },
+    {
+      "tag": "MEInfo",
+      "patterns": [
+        "Tell me about the Mechanical Engineering",
+        "What is the syllabus for Mechanical Engineering?",
+        "What is the duration of Mechanical Engineering?",
+        "What are the career opportunities after completing Mechanical Engineering?"
+      ],
+      "responses": [
+        "The Mechanical Engineering program endeavours to nurturing a universally relevant knowledgeable & skilled human resources in Mechanical Engineering.",
+        "The syllabus for Mechanical Engineering can be found at http://adit.ac.in/medept.jsp.",
+        "The duration of the Mechanical Engineering program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at http://adit.ac.in/medept.jsp",
+        "After completing  Mechnical Engineering, demonstrate knowledge in the domain of mechanical design, thermal and manufacturing engineering..More can be found at http://adit.ac.in/medept.jsp"
+      ]
+    },
+    {
+      "tag": "CivilInfo",
+      "patterns": [
+        "Tell me about the Civil Engineering",
+        "What is the syllabus for Civil Engineering?",
+        "What is the duration of Civil Engineering?",
+        "What are the career opportunities after completing Civil Engineering?"
+      ],
+      "responses": [
+        "The Civil Engineering program endeavours to inculcating creativity for environmentally sustainable Civil engineering ",
+        "The syllabus for Civil Engineering can be found at http://adit.ac.in/cvdept.jsp.",
+        "The duration of the Civil Engineering program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at http://adit.ac.in/cvdept.jsp",
+        "After completing  Civil Engineering, analyse any real-life problem and design structures which are not only safe and economical but also socially acceptable & environmentally sustainable. More can be found at http://adit.ac.in/cvdept.jsp"
+      ]
+    },
+    {
+      "tag": "CEInfo",
+      "patterns": [
+        "Computer Enginnering",
+        "Tell me about the Computer Engineering",
+        "What is the syllabus for  Compter Engineering?",
+        "What is the duration of Compter Engineering?",
+        "What are the career opportunities after completing Compter Engineering?"
+      ],
+      "responses": [
+        "The  Compter Engineering program covers a range of topics related to software and hardware aspects of Compter Engineering.",
+        "The syllabus for  Compter Engineering cna be found on through this link http://adit.ac.in/cpdept.jsp.",
+        "The duration of the Compter Engineering program is 4 years or 8 semesters.",
+        "After completing  Compter Engineering, you can pursue a career in fields such as software and hardware developer and many more."
+      ]
+    },
+    {
+      "tag": "CSDInfo",
+      "patterns": [
+        "Tell me about the Computer Science & Design",
+        "What is the syllabus for Computer Science & Design?",
+        "What is the duration of Computer Science & Design?",
+        "What are the career opportunities after completing Computer Science & Design?"
+      ],
+      "responses": [
+        "The Computer Science & Design program endeavours to cultivate design skills for futuristic computing needs.",
+        "The syllabus for Computer Science & Design can be found at http://adit.ac.in/csddept.jsp",
+        "The duration of the Computer Science & Design program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at http://adit.ac.in/csddept.jsp"
+      ]
+    },
+    {
+      "tag": "AIInfo",
+      "patterns": [
+        "Tell me about the Artificial Intelligence",
+        "What is the syllabus for Artificial Intelligence?",
+        "What is the duration of Artificial Intelligence?",
+        "What are the career opportunities after completing Artificial Intelligence?"
+      ],
+      "responses": [
+        "The Artificial Intelligence program endeavours to impart quality education to produce high quality, creative and ethical engineers, to instil professionalism, problem solving skills and potential research in the domain of artificial intelligence and data science.",
+        "The syllabus for Artificial Intelligence can be found at http://adit.ac.in/aidsdept.jsp",
+        "The duration of the Artificial Intelligence program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at     To impart quality education to produce high quality, creative and ethical engineers, to instil professionalism, problem solving skills and potential research in the domain of artificial intelligence and data science."
+      ]
+    },
+    {
+      "tag": "DTInfo",
+      "patterns": [
+        "Tell me about the Dairy Technology",
+        "What is the syllabus for Dairy Technology?",
+        "What is the duration of Dairy Technology?",
+        "What are the career opportunities after completing Dairy Technology?",
+        "What are the eligibility criteria for Dairy Technology?"
+      ],
+      "responses": [
+        "The Dairy Technology program endeavours to impart quality education to produce high quality, creative and ethical engineers, to instil professionalism, problem solving skills and potential research in the domain of artificial intelligence and data science.",
+        "The syllabus for Dairy Technology can be found at http://adit.ac.in/aidsdept.jsp",
+        "The duration of the Dairy Technology program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at",
+        "Std. 12th (Science) with minimum 45% for open (40 % for SC/ST/SEBC/EWS) of theory or (theory and practical) marks along with ACPC norms "
+      ]
+    },
+    {
+      "tag": "ECInfo",
+      "patterns": [
+        "Tell me about the Electronics & Communication",
+        "What is the syllabus for Electronics & Communication",
+        "What is the duration of Electronics & Communication?",
+        "What are the career opportunities after completing Electronics & Communication?"
+      ],
+      "responses": [
+        "The program Electronics & Communication endeavours to nurturing excellence in Electronics and Communication Engineering through innovative, rational and ethical thinking.",
+        "The syllabus for Electronics & Communication can be found at http://adit.ac.in/ecdept.jsp",
+        "The duration of the Electronics & Communication program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at http://adit.ac.in/ecdept.jsp"
+      ]
+    },
+    {
+      "tag": "EEInfo",
+      "patterns": [
+        "Tell me about the Electrical Engineering",
+        "What is the syllabus for Electrical Engineering",
+        "What is the duration of Electrical Engineering?",
+        "What are the career opportunities after completing Electrical Engineering?"
+      ],
+      "responses": [
+        "The program Electrical Engineering endeavours to developing excellence in Electrical Engineering through a globally relevant perspective skill and knowledge.",
+        "The syllabus for Electrical Engineering can be found at http://adit.ac.in/eedept.jsp",
+        "The duration of the Electrical Engineering program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at http://adit.ac.in/eedept.jsp"
+      ]
+    },
+    {
+      "tag": "AdmissionInfo",
+      "patterns": [
+        "What is the admission process?",
+        "When are the admissions open?",
+        "What are the documents required for admission?",
+        "What is the minimum eligibility criteria for admission?"
+      ],
+      "responses": [
+        "The admission process may vary depending on the course you choose. You can find more information about it on our website. http://adit.ac.in/",
+        "The admissions are usually open in all year.",
+        "The documents required for admission can be found on our website http://adit.ac.in/admission.jsp.",
+        "The minimum eligibility criteria for admission differs as per the department you choose. You can find more information about it on our website. http://adit.ac.in/admission.jsp"
+      ]
+    },
+    {
+      "tag": "FacilitiesInfo",
+      "patterns": [
+        "What are the facilities provided in the library?",
+        "What sports facilities are available?",
+        "What are the facilities provided for research students?",
+        "What is the campus like?"
+      ],
+      "responses": [
+        "Our library is well-stocked and provides access to a range of resources.",
+        "We have a sports complex with facilities for various sports including basketball, volleyball, cricket, football and many more. You can find more information on http://adit.ac.in/sportsdept.jsp",
+        "Queries related to research student can be found at http://adit.ac.in/research.jsp.",
+        "Our campus experience can be represented by this video https://youtu.be/UcDnm5pqDxw."
+      ]
+    }
+  ]
+}

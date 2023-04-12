@@ -1,0 +1,393 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thank's a lot!"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+        ]
+      },
+      {
+        "tag": "Collegeabout",
+        "patterns": [
+          "Tell me about the college"
+        ],
+        "responses": [
+          "Our college offers a variety of undergraduate and graduate courses in different fields. http://adit.ac.in/about.jsp"     
+        ]
+      },
+      {
+        "tag": "Collegecourses",
+        "patterns": [
+            "What are the courses offered?",
+            "Can you tell me about the different courses offered at your college?",
+            "What kind of courses can I expect to find at your college?",
+            "I'm interested in knowing more about the courses offered at your college.",
+            "Could you provide me with a list of the courses that your college offers?",
+            "What are the available courses that I can choose from at your college?",
+            "Are there any specific areas of study that your college specializes in?",
+            "How diverse are the courses offered at your college?"
+        ],
+        "responses": [
+            "Multiple courses are offered in the college along with Computer Engineering, Information Technology, Automobile, Mechanical, Electrical, Electrical and Communication and Food and Processing ets. You may find more information on http://adit.ac.in/courses.jsp"
+        ]
+      },
+      {
+        "tag": "Collegerequirement",
+        "patterns": ["Admission requirements, what are they?",
+        "Could you please inform me of the admission requirements?",
+        "I would like to know what the admission requirements are, can you provide me with that information?",
+        "What are the admission requirements?"
+    ],
+        "responses": ["The admission requirements may vary depending on the course you choose. You can find more information about it on our website. adit.ac.in/"]
+      },
+      {
+        "tag": "Collegefees",
+        "patterns": [
+            "What is the tuition fee?",
+            "Can you tell me what the tuition fee is for this program?",
+"I'm interested in this program, but I need to know the tuition fee. Could you provide me with that information?",
+"I'm wondering about the cost of tuition for this program. What is the current tuition fee?"
+    ],
+        "responses": [ "The tuition fee is 53000 Rupees. You can find more information about it on our website.adit.ac.in/"]
+      },
+      {
+        "tag": "Collegefaci",
+        "patterns": [          
+            "What are the facilities provided?",
+            "What facilities does the program offer?",
+"Could you provide me with information about the facilities provided for this program?",
+"I'm curious about the facilities provided for this program. Can you tell me what they are?"
+        
+        ],
+        "responses": ["We provide facilities like a library, computer lab, sports complex, and more.adit.ac.in/"]
+      },
+      {
+        "tag": "hostelfaci",
+        "patterns": [ "Is there a hostel facility?",
+        "Does the college provide a hostel facility?",
+        "I'm from out of town, and I'm wondering if there is a hostel facility available. Could you let me know?",
+        "Is there a hostel or dormitory available for students? I need to make living arrangements."],
+        "responses": [ "Yes, we do provide hostel facilities for students."]
+      },
+      {
+        "tag": "Collegeadds",
+        "patterns": ["What is the college's address?",
+        "Can you tell me the address of the college?",
+        "I'm interested in visiting the college, could you provide me with their address?",
+        "What is the physical address of the college? I need to know for some paperwork."],
+        "responses": [ "Our college is located at New Vallabh Vidhyanagar, Post Box:-52, Vitthal Udyognagar-388121, Dist:-Anand(Gujarat) India ."]
+        
+      },
+      {
+        "tag": "Collegecontact",
+        "patterns": ["What is the contact number of the college?",
+        "May I have the college's contact number please?",
+        "I need to get in touch with the college. Could you provide me with their contact number?",
+        "What is the phone number for the college? I need to reach them."],
+        "responses": [ "You can contact us at TEL: +91-2692-233680, Whatsapp number : 9427603032. INSTITUTE EMAIL : info@adit.ac.in, PRINCIPAL EMAIL : principal@adit.ac.in"]
+      },
+      {
+        "tag": "ITInfo",
+        "patterns": [
+          "Tell me about the Information Technology"
+        ],
+        "responses": [
+          "The Information Technology program covers a range of topics related to Software development. More can be found at http://adit.ac.in/itdept.jsp"
+ 
+        ]
+      },
+      {
+        "tag": "ITsys",
+        "patterns":["What is the syllabus for  Information Technology?",
+        "Can you provide me with the syllabus for the Information Technology program?",
+        "I'm interested in learning more about the Information Technology program. Could you tell me what is included in the syllabus?",
+        "What topics are covered in the Information Technology program syllabus? I want to make sure it aligns with my interests."],
+        "responses":[ "The syllabus for Information Technology can be found at http://adit.ac.in/itdept.jsp"]
+      },
+      {
+        "tag": "Duration",
+        "patterns":[ "What is the duration of  Information Technology?",
+        "What is the duration of Food Processing Technology?",
+        "What is the duration of Mechanical Engineering?",
+        "What is the duration of Civil Engineering?",
+        "What is the duration of Compter Engineering?",
+        "What is the duration of Computer Science & Design?",
+        "What is the duration of Artificial Intelligence?",
+        "What is the duration of Dairy Technology?",
+        "What is the duration of Electronics & Communication?",
+        "What is the duration of Electrical Engineering?"
+    ],
+        "responses":["The duration of all programs are 4 years for Bechlores Program and 2 years for Masters programs."]
+      },
+      {
+        "tag": "ITcareer",
+        "patterns":["What are the career opportunities after completing  Information Technology?",
+        "What kind of career opportunities can one expect after completing the Information Technology program?",
+        "I'm considering studying Information Technology, but I want to know more about the potential career paths. Could you tell me what the career opportunities are after completion?",
+        "What job prospects are available after completing the Information Technology program? I want to make an informed decision about my education."],
+        "responses":["After completing  Information Technology,  can pursue a career in fyouields such as Information Technology, software and web development and moreAcquire knowledge of core courses like programming, algorithms, database technologies, software engineering and networking and apply them to solve real world problems. More can be found at http://adit.ac.in/itdept.jsp"]
+      },
+ 
+      {
+        "tag": "FTPInfo",
+        "patterns": [
+          "Tell me about the Food Processing Technology"
+        ],
+        "responses": [
+          "The Food Processing Technology program endeavours to develop globally competent graduate engineers capable of fulfilling the rapidly growing demands of food processing sector. ."
+        ]
+      },
+           {
+        "tag": "FTPsys",
+        "patterns": ["What is the syllabus for Food Processing Technology?",
+        "Can you provide me with the syllabus for the Food Processing Technology program?",
+        "I'm interested in learning more about the Food Processing Technology program. Could you tell me what is included in the syllabus?",
+        "What topics are covered in the Food Processing Technology program syllabus? I want to make sure it aligns with my interests."    
+    ],
+        "responses":[ "The syllabus for Food Processing Technology can be found at http://adit.ac.in/fptdept.jsp."]
+      },
+      {
+        "tag": "FPTcareer",
+        "patterns":["What are the career opportunities after completing  Food Processing Technology",
+        "What kind of career opportunities can one expect after completing the Food Processing Technology program?",
+        "I'm considering studying Food Processing Technology, but I want to know more about the potential career paths. Could you tell me what the career opportunities are after completion?",
+        "What job prospects are available after completing the Food Processing Technology program? I want to make an informed decision about my education."],
+        "responses":["After completing  Food Processing Technology, implementation of food safety practices, quality control measures, quality assurance procedures and statutory and legal requirements in food processing industry.More can be found at http://adit.ac.in/fptdept.jsp"]
+      },
+      {
+        "tag": "MEInfo",
+        "patterns": [
+          "Tell me about the Mechanical Engineering"
+        ],
+        "responses": [
+          "The Mechanical Engineering program endeavours to nurturing a universally relevant knowledgeable & skilled human resources in Mechanical Engineering."
+        ]
+      },
+
+      {
+        "tag": "MEsys",
+        "patterns": ["What is the syllabus for  Mechanical Engineering?",
+        "Can you provide me with the syllabus for the  Mechanical Engineering program?",
+        "I'm interested in learning more about the  Mechanical Engineering program. Could you tell me what is included in the syllabus?",
+        "What topics are covered in the  Mechanical Engineering program syllabus? I want to make sure it aligns with my interests."    
+    ],
+        "responses":[ "The syllabus for Mechanical Engineering can be found at http://adit.ac.in/medept.jsp."]
+      },
+      {
+        "tag": "MEcareer",
+        "patterns":["What are the career opportunities after completing   Mechanical Engineering",
+        "What kind of career opportunities can one expect after completing the  Mechanical Engineering program?",
+        "I'm considering studying  Mechanical Engineering, but I want to know more about the potential career paths. Could you tell me what the career opportunities are after completion?",
+        "What job prospects are available after completing the  Mechanical Engineering program? I want to make an informed decision about my education."],
+        "responses":[ "After completing  Mechnical Engineering, demonstrate knowledge in the domain of mechanical design, thermal and manufacturing engineering..More can be found at http://adit.ac.in/medept.jsp"]
+      },
+      {
+        "tag": "CivilInfo",
+        "patterns": [
+          "Tell me about the Civil Engineering"
+        ],
+        "responses": [
+          "The Civil Engineering program endeavours to inculcating creativity for environmentally sustainable Civil engineering "
+         
+        ]
+      },
+      {
+        "tag": "CVsys",
+        "patterns": ["What is the syllabus for  Civil Engineering?",
+        "Can you provide me with the syllabus for the  Civil Engineering program?",
+        "I'm interested in learning more about the  Civil Engineering program. Could you tell me what is included in the syllabus?",
+        "What topics are covered in the  Civil Engineering program syllabus? I want to make sure it aligns with my interests."    
+    ],
+        "responses":[ "The syllabus for Civil Engineering can be found at http://adit.ac.in/cvdept.jsp."]
+      },
+      {
+        "tag": "CVcareer",
+        "patterns":["What are the career opportunities after completing   Civil Engineering",
+        "What kind of career opportunities can one expect after completing the  Civil Engineering program?",
+        "I'm considering studying  Civil Engineering, but I want to know more about the potential career paths. Could you tell me what the career opportunities are after completion?",
+        "What job prospects are available after completing the  Civil Engineering program? I want to make an informed decision about my education."
+    ],
+        
+        "responses": [  "After completing  Civil Engineering, analyse any real-life problem and design structures which are not only safe and economical but also socially acceptable & environmentally sustainable. More can be found at http://adit.ac.in/cvdept.jsp"
+        ]
+    },       
+        {
+        "tag": "CEInfo",
+        "patterns": [
+          "Computer Enginnering",
+          "Tell me about the Computer Engineering"
+        ],
+        "responses": [
+          "The  Compter Engineering program covers a range of topics related to software and hardware aspects of Compter Engineering."
+        ]
+      },
+      {
+        "tag": "CEsys",
+        "patterns": ["What is the syllabus for  Computer Engineering?",
+        "Can you provide me with the syllabus for the  Computer Engineering program?",
+        "I'm interested in learning more about the  Computer Engineering program. Could you tell me what is included in the syllabus?",
+        "What topics are covered in the  Computer Engineering program syllabus? I want to make sure it aligns with my interests."    
+    ],
+        "responses":[  "The syllabus for  Compter Engineering cna be found on through this link http://adit.ac.in/cpdept.jsp."]
+      },
+      {
+        "tag": "CVcareer",
+        "patterns":["What are the career opportunities after completing   Computer Engineering",
+        "What kind of career opportunities can one expect after completing the  Computer Engineering program?",
+        "I'm considering studying  Computer Engineering, but I want to know more about the potential career paths. Could you tell me what the career opportunities are after completion?",
+        "What job prospects are available after completing the  Computer Engineering program? I want to make an informed decision about my education."
+    ],
+        
+        "responses": [  "After completing  Compter Engineering, you can pursue a career in fields such as software and hardware developer and many more."
+        ]
+    },
+      {
+        "tag": "CSDInfo",
+        "patterns": [
+          "Tell me about the Computer Science & Design"
+        ],
+        "responses": [
+          "The Computer Science & Design program endeavours to cultivate design skills for futuristic computing needs."
+        ]
+      },
+      {
+        "tag": "CSDsys",
+        "patterns": ["What is the syllabus for  Computer Science & Design?",
+        "Can you provide me with the syllabus for the  Computer Science & Design program?",
+        "I'm interested in learning more about the  Computer Science & Design program. Could you tell me what is included in the syllabus?",
+        "What topics are covered in the  Computer Science & Design program syllabus? I want to make sure it aligns with my interests."    
+    ],
+        "responses":[ "The syllabus for Computer Science & Design can be found at http://adit.ac.in/csddept.jsp"]
+      },
+      {
+        "tag": "AIInfo",
+        "patterns": [
+          "Tell me about the Artificial Intelligence"
+        ],
+        "responses": [
+          "The Artificial Intelligence program endeavours to impart quality education to produce high quality, creative and ethical engineers, to instil professionalism, problem solving skills and potential research in the domain of artificial intelligence and data science."
+        ]
+      },
+      {
+        "tag": "AIsys",
+        "patterns": ["What is the syllabus for  Computer Engineering?",
+        "Can you provide me with the syllabus for the  Computer Engineering program?",
+        "I'm interested in learning more about the  Computer Engineering program. Could you tell me what is included in the syllabus?",
+        "What topics are covered in the  Computer Engineering program syllabus? I want to make sure it aligns with my interests."    
+    ],
+        "responses":["The syllabus for Artificial Intelligence can be found at http://adit.ac.in/aidsdept.jsp"]
+      },
+      {
+        "tag": "DTInfo",
+        "patterns": [
+          "Tell me about the Dairy Technology",
+          "What is the syllabus for Dairy Technology?",
+          
+          "What are the career opportunities after completing Dairy Technology?",
+          "What are the eligibility criteria for Dairy Technology?"
+        ],
+        "responses": [
+          "The Dairy Technology program endeavours to impart quality education to produce high quality, creative and ethical engineers, to instil professionalism, problem solving skills and potential research in the domain of artificial intelligence and data science.",
+          "The syllabus for Dairy Technology can be found at http://adit.ac.in/aidsdept.jsp",
+          "The duration of the Dairy Technology program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at",
+          "Std. 12th (Science) with minimum 45% for open (40 % for SC/ST/SEBC/EWS) of theory or (theory and practical) marks along with ACPC norms "
+        ]
+      },
+      {
+        "tag": "ECInfo",
+        "patterns": [
+          "Tell me about the Electronics & Communication",
+          "What is the syllabus for Electronics & Communication",
+          
+          "What are the career opportunities after completing Electronics & Communication?"
+        ],
+        "responses": [
+          "The program Electronics & Communication endeavours to nurturing excellence in Electronics and Communication Engineering through innovative, rational and ethical thinking.",
+          "The syllabus for Electronics & Communication can be found at http://adit.ac.in/ecdept.jsp",
+          "The duration of the Electronics & Communication program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at http://adit.ac.in/ecdept.jsp"
+        ]
+      },
+      {
+        "tag": "EEInfo",
+        "patterns": [
+          "Tell me about the Electrical Engineering",
+          "What is the syllabus for Electrical Engineering",
+          
+          "What are the career opportunities after completing Electrical Engineering?"
+        ],
+        "responses": [
+          "The program Electrical Engineering endeavours to developing excellence in Electrical Engineering through a globally relevant perspective skill and knowledge.",
+          "The syllabus for Electrical Engineering can be found at http://adit.ac.in/eedept.jsp",
+          "The duration of the Electrical Engineering program is 4 years for Bechlores Program and 2 years for Masters programs.More can be found at http://adit.ac.in/eedept.jsp"
+        ]
+      },
+      {
+        "tag": "AdmissionInfo",
+        "patterns": [
+          "What is the admission process?",
+          "When are the admissions open?",
+          "What are the documents required for admission?",
+          "What is the minimum eligibility criteria for admission?"
+        ],
+        "responses": [
+          "The admission process may vary depending on the course you choose. You can find more information about it on our website. http://adit.ac.in/",
+          "The admissions are usually open in all year.",
+          "The documents required for admission can be found on our website http://adit.ac.in/admission.jsp.",
+          "The minimum eligibility criteria for admission differs as per the department you choose. You can find more information about it on our website. http://adit.ac.in/admission.jsp"
+        ]
+      },
+      {
+        "tag": "FacilitiesInfo",
+        "patterns": [
+          "What are the facilities provided in the library?",
+          "What sports facilities are available?",
+          "What are the facilities provided for research students?",
+          "What is the campus like?"
+        ],
+        "responses": [
+          "Our library is well-stocked and provides access to a range of resources.",
+          "We have a sports complex with facilities for various sports including basketball, volleyball, cricket, football and many more. You can find more information on http://adit.ac.in/sportsdept.jsp",
+          "Queries related to research student can be found at http://adit.ac.in/research.jsp.",
+          "Our campus experience can be represented by this video https://youtu.be/UcDnm5pqDxw."
+        ]
+      }
+    ]
+  }
